@@ -4,6 +4,7 @@
     "keywords": ["modvel", "base", "laravel modular"],
     "license": "MIT",
     "type": "project",
+    "version": "1.0.0",
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
