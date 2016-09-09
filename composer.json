@@ -1,7 +1,8 @@
 {
-    "name": "furkankadioglu/ModvelBase",
+    "name": "furkankadioglu/modvelbase",
     "description": "Modvel Base",
     "keywords": ["modvel", "base", "laravel modular"],
+    "homepage": "https://github.com/furkankadioglu/ModvelBase",
     "license": "MIT",
     "type": "project",
     "version": "1.0.0",
