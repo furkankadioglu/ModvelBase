@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "furkankadioglu/ModvelBase",
+    "description": "Modvel Base",
+    "keywords": ["modvel", "base", "laravel modular"],
     "license": "MIT",
     "type": "project",
     "require": {
