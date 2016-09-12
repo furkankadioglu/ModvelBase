@@ -1,3 +1,6 @@
+!public/
+!db-blade-compiler/
+!laravel-analytics-cache/
 *
 !public/
 !db-blade-compiler/
