@@ -1,3 +1,5 @@
 *
 !public/
+!db-blade-compiler/
+!laravel-analytics-cache/
 !.gitignore
