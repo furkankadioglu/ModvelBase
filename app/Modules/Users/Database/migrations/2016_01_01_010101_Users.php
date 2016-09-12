@@ -26,6 +26,7 @@ class Users extends Migration
             $table->integer('photoId');
             $table->integer('status')->default(1);
             $table->timestamps();
+        });
 
         \DB::table('users')->insert(array (
             0 => 
@@ -46,7 +47,6 @@ class Users extends Migration
                 'updated_at' => '2016-07-18 22:57:43',
             ),
         ));
-        });
     }
 
     /**
