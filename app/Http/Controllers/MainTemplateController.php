@@ -27,7 +27,7 @@ abstract class MainTemplateController extends BaseController
 			$this->modules = BaseHelpers::getAllModuleDetails();
 			$this->theme = Config::get('modulemanagement.theme');
 
-			$menuPages = Page::where('showMenu', 1)->where('masterPageId', 0)->get();
+			$menuPages = Page::where('showMenu', 1)->where('status', 1)->where('masterPageId', 0)->get();
 			$brandname = ModvelHelpers::getInformation('brand-name');
 
 			$mainModuleCategories = BaseHelpers::getAdminModuleCategories();
