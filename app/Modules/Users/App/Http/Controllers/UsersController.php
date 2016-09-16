@@ -150,7 +150,7 @@ class UsersController extends MainTemplateController {
                 $templates = $request->get('templates');
 
                 // Delete datas
-		        foreach($templates as $k => $v)
+		        foreach((array)$templates as $k => $v)
 		        {
 		        	$d = UserInformationData::where('templateId', $k)->where('userId', $data->id)->first();
 		        	if($d)
@@ -159,7 +159,7 @@ class UsersController extends MainTemplateController {
 		        	}
 		        }
 
-		        foreach($templates as $k => $v)
+		        foreach((array)$templates as $k => $v)
 		        {
 		        	$d = new UserInformationData;
 		        	$d->templateId = $k;
